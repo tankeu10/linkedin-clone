@@ -1,13 +1,19 @@
 import React from "react";
-//import Main from "./components/Main";
-import Signin from "./components/Signin";
+import Main from "./components/Main";
+//import {Route, Routes} from "react-router-dom";
+//import Signin from "./components/Signin";
 
 
 function App() {
   return (
     <div>
-        {/*<Main/> */}
-        <Signin/>
+        {/*<Routes>
+            <Route path='/' element={<Signin/>}/>
+            <Route path='/main' element={<Main/>}/>
+        </Routes>*/}
+        <Main/>
+        {/*<Signin/>*/}
+
     </div>
   )
 }

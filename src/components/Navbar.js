@@ -8,7 +8,7 @@ import network from '../images/network.png'
 import profil from '../images/profil.jpg'
 
 
-function Navbar() {
+function Navbar({userData}) {
     return (
         <div style={{padding:"10px", borderBottom:"1px solid #F5F5F5"}}>
             <Grid container>
@@ -20,7 +20,7 @@ function Navbar() {
                     <img style={{width: "25px", marginLeft:"20px"}} src={home} alt="home logo"/>
                     <img style={{width: "25px", marginLeft:"20 px"}} src={message} alt="message logo"/>
                     <img style={{width: "25px", marginLeft:"20 px"}} src={network} alt="network logo"/>
-                    <img style={{width: "25px", marginLeft:"20 px"}} src={profil} alt="profil logo"/>
+                    <img style={{width: "25px", marginLeft:"20 px", borderRadius:"40px"}} src={profil} alt="profil logo"/>
                 </Grid>
             </Grid>
 

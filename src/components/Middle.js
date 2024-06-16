@@ -6,11 +6,12 @@ import evenement from "../images/evenement.png";
 import image from "../images/image.png";
 import it from "../images/it.jpg";
 
-function Middle(props) {
+function Middle({userData}) {
+
     return (
         <div>
             <div style={{backgroundColor: "white", padding: "20px", borderRadius: "10px"}}>
-                <img style={{width: "70px"}} src={profil}/>
+                <img style={{width: "70px", borderRadius:"40px"}} src={profil}/>
                 <TextField variant="outlined" label="Start a post" style={{width: "450px", marginLeft: "20px"}}
                            InputProps={{sx: {borderRadius: 300}}}/>
                 <img style={{width: "40px", marginLeft:"275.65px"}} src={image}/>
