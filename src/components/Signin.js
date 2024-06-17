@@ -8,7 +8,7 @@ import { auth,googleProvider, database} from "../firebase/setup";
 import { doc,setDoc} from "firebase/firestore"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import {useNavigate} from "react-router-dom";
+//import {useNavigate} from "react-router-dom";
 
 function  Signin(){
 
